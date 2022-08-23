@@ -56,28 +56,28 @@ body {
 }
 
 .section {
-   padding-top: 94px; 
-   padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Logo/Лого */
 
 .page-logo {
-    margin-right: 93px;
+  margin-right: 93px;
 
   color: var(--accent-color);
   font-family: var(--secondary-font);
@@ -103,35 +103,28 @@ body {
 /* Site nav/Навігація */
 
 .page-header {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    border-bottom: 1px solid #ECECEC;
-    
-    background-color: var(--secondary-color-background);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
 
+  background-color: var(--secondary-color-background);
 }
 
 .page-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-navigation {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .site-nave {
-    display: flex;
-    column-gap: 50px;
-}
-
-.auth-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  column-gap: 50px;
+  padding-left: 0px;
 }
 
 .site-nav .site-link.current {
@@ -155,9 +148,14 @@ body {
 
 /* Auth-nav/Контакти */
 
-.contact-link {
-  margin-right: 50px;
+.auth-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding-left: 0px;
+}
 
+.contact-link {
   color: var(--primary-text-color);
   background-color: var(--secondary-color-background);
   line-height: 1.14;
@@ -262,38 +260,38 @@ body {
 }
 
 .examples-card {
-  flex-basis: calc(100%-60px/3);
+  flex-basis: calc(100%-60px / 3);
 }
 
 .examples-list {
-    display: flex;
-    padding-left: 0px;
-    gap: 30px;
+  display: flex;
+  padding-left: 0px;
+  gap: 30px;
 }
 
 /* Team/Команда */
 
 .team {
-   padding-left: 0px;
+  padding-left: 0px;
 
-   background-color: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .team-card {
-    flex-basis: calc(100%-90px/4);
-    border: 1px solid #ECECEC;
+  flex-basis: calc(100%-90px / 4);
+  border: 1px solid #ececec;
 }
 
 .team-list {
-    display: flex;
-    padding-left: 0px;
-    gap: 30px;
+  display: flex;
+  padding-left: 0px;
+  gap: 30px;
 }
 
 .team-title {
-    margin-bottom: 10px;
-    padding-top: 30px;
- text-align: center;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
 
   color: #212121;
   font-size: 16px;
@@ -301,9 +299,9 @@ body {
 }
 
 .team-text {
-        padding-bottom: 30px;
-        text-align: center;
-       
+  padding-bottom: 30px;
+  text-align: center;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -340,11 +338,11 @@ body {
 }
 
 .activ {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 4px;
 
   color: #ffffff;
   background-color: var(--accent-color);
@@ -363,10 +361,9 @@ body {
 }
 
 .project-card {
-   border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 
-  flex-basis: calc(100%-60px/3);
-
+  flex-basis: calc(100%-60px / 3);
 }
 
 .project-title {
@@ -400,8 +397,8 @@ body {
   background-color: #2f303a;
 }
 
-.adress{
-    padding-left: 0px;
+.adress {
+  padding-left: 0px;
 }
 
 .adress .text {
@@ -411,7 +408,7 @@ body {
 }
 
 .adress-item {
-    margin-top: 9px;
+  margin-top: 9px;
 }
 
 .adress-link {
