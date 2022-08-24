@@ -78,7 +78,9 @@ body {
 /* Logo/Лого */
 
 .page-logo {
-  
+  margin-bottom: 20px;
+  display: block;
+
   color: var(--accent-color);
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -94,8 +96,6 @@ body {
 }
 
 .logo-footer {
-  margin-bottom: 20px;
-
   color: var(--secondary-color-background);
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -153,10 +153,10 @@ body {
 /* Auth-nav/Контакти */
 
 .auth-nav {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
-    padding-left: 0px;
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  padding-left: 0px;
 }
 
 .contact-link {
@@ -194,7 +194,7 @@ body {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 
   background-color: #2f303a;
   text-align: center;
@@ -283,20 +283,11 @@ body {
   padding: 30px;
 }
 
-.element.style {
-  background-color: #FFFFFF;
-  Effect Style: material shadow v1;
-  Effect: Drop shadow Radius: 1px;
-  Offset: 0px, 2px;
-  rgba(0, 0, 0, 0.2)
-  Effect: Drop shadow;
-  Radius: 1px;
-  Offset: 0px, 1px;
-  rgba(0, 0, 0, 0.14);
-  Effect: Drop shadow;
-  Radius: 3px;
-  Offset: 0px, 1px;
-  rgba(0, 0, 0, 0.12);
+.team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -395,7 +386,6 @@ body {
 }
 
 .project-text {
-
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.89;
