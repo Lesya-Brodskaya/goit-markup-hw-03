@@ -43,6 +43,7 @@ button {
 body {
   font-family: var(--primary-font);
   color: var(--title-text-color);
+  background-color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -77,14 +78,15 @@ body {
 /* Logo/Лого */
 
 .page-logo {
-  margin-right: 93px;
-
+  
   color: var(--accent-color);
   font-family: var(--secondary-font);
   font-size: 26px;
 }
 
 .logo-header {
+  margin-right: 93px;
+
   color: #000000;
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -92,6 +94,8 @@ body {
 }
 
 .logo-footer {
+  margin-bottom: 20px;
+
   color: var(--secondary-color-background);
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -103,8 +107,8 @@ body {
 /* Site nav/Навігація */
 
 .page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 
   background-color: var(--secondary-color-background);
@@ -176,6 +180,7 @@ body {
   height: 50px;
   min-width: 216px;
   border-radius: 4px;
+  border: none;
   padding: 10px 32px;
 
   color: var(--secondary-color-background);
@@ -198,6 +203,7 @@ body {
 .hero-title {
   width: 696px;
   height: 120px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 
@@ -231,11 +237,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
-
-.features,
-.examples {
-  background-color: var(--primary-color-background);
 }
 
 .features-title {
@@ -279,7 +280,23 @@ body {
 
 .team-card {
   flex-basis: calc(100%-90px / 4);
-  border: 1px solid #ececec;
+  padding: 30px;
+}
+
+.element.style {
+  background-color: #FFFFFF;
+  Effect Style: material shadow v1;
+  Effect: Drop shadow Radius: 1px;
+  Offset: 0px, 2px;
+  rgba(0, 0, 0, 0.2)
+  Effect: Drop shadow;
+  Radius: 1px;
+  Offset: 0px, 1px;
+  rgba(0, 0, 0, 0.14);
+  Effect: Drop shadow;
+  Radius: 3px;
+  Offset: 0px, 1px;
+  rgba(0, 0, 0, 0.12);
 }
 
 .team-list {
@@ -289,8 +306,8 @@ body {
 }
 
 .team-title {
+  font-weight: 500;
   margin-bottom: 10px;
-  padding-top: 30px;
   text-align: center;
 
   color: #212121;
@@ -299,7 +316,6 @@ body {
 }
 
 .team-text {
-  padding-bottom: 30px;
   text-align: center;
 
   color: var(--primary-text-color);
@@ -315,6 +331,7 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 8px;
+  padding: 0px;
 }
 
 .btn-portfolio {
@@ -323,6 +340,7 @@ body {
   padding-left: 22px;
   padding-right: 22px;
   border-radius: 4px;
+  border: none;
 
   background-color: #f5f4fa;
   font-size: 16px;
@@ -354,7 +372,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-left: 0px;
 
   background-color: var(--secondari-color-background);
@@ -362,15 +380,13 @@ body {
 
 .project-card {
   border: 1px solid #ececec;
+  padding: 20px 24px;
 
   flex-basis: calc(100%-60px / 3);
 }
 
 .project-title {
   margin-bottom: 4px;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
 
   color: var(--title-text-color);
   font-size: 18px;
@@ -379,9 +395,6 @@ body {
 }
 
 .project-text {
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
 
   color: var(--primary-text-color);
   font-size: 16px;
@@ -401,14 +414,14 @@ body {
   padding-left: 0px;
 }
 
+.adress-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .adress .text {
   color: var(--secondary-color-background);
   background-color: #2f303a;
   line-height: 1.71;
-}
-
-.adress-item {
-  margin-top: 9px;
 }
 
 .adress-link {
