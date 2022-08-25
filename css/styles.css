@@ -78,8 +78,7 @@ body {
 /* Logo/Лого */
 
 .page-logo {
-  margin-bottom: 20px;
-  display: block;
+  margin-right: 93px;
 
   color: var(--accent-color);
   font-family: var(--secondary-font);
@@ -87,8 +86,6 @@ body {
 }
 
 .logo-header {
-  margin-right: 93px;
-
   color: #000000;
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -392,6 +389,12 @@ body {
 }
 
 /* Footer/Підвал */
+
+.page-footer .page-logo {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0px;
+
 
 .page-footer {
   padding-top: 60px;
